@@ -16,8 +16,8 @@ For example:
 ------------------------------------------------------------------------------------------------------------------------------
 ### Benefits
 
-(1) Organizes raw data in a clear and consistent way.
-(2) Makes data ingestion and maintenance easier.
-(3) Supports incremental and repeated file uploads.
-(4) Ensures that all files for the same dataset are stored in one location.
-(5) Provides a scalable landing area for ETL/ELT and streaming pipelines.
+- Organizes raw data in a clear and consistent way.
+- Makes data ingestion and maintenance easier.
+- upports incremental and repeated file uploads.
+- ures that all files for the same dataset are stored in one location.
+- ovides a scalable landing area for ETL/ELT and streaming pipelines.
