@@ -106,19 +106,35 @@ olist-hybrid-data-platform/
 │   └── Bronze_Layer/
 │   └── Silver_Layer/
 │   └── Checkpoints/
+├── Ctalog                    
+│   └── Illustrative screenshots from Databricks__( Streaming_Data )/
+│   └── Illustrative screenshots from Databricks__( Batch_Data )/
 │
-├── Batch_Pipeline/                   # Weekly ETL notebooks
+├── Jobs & Pipelines                    
+│   └── Illustrative screenshots from Databricks/
+│
+├── Olist__Batch__Data/Olist_Batch_Pipeline(medallion architecture )                   # Weekly ETL notebooks
 │   ├── Bronze_Layer.py               # Auto Loader ingestion (9 files → Delta)
 │   ├── Silver_Layer.py               # 8-step cleaning + quarantine per table
 │   └── Gold_Layer.py                 # Galaxy schema: dims, facts, KPI queries
 │
-├── Streaming_Pipeline/               # Real-time ETL notebooks
+├── Olist__Streaming__Data/Olist_Streaming_Pipeline                                    # Real-time ETL notebooks
 │   ├── Producer.py                   # Simulates live order events → Event Hub
 │   ├── Bronze_Layer.py               # Kafka-protocol ingestion → raw Delta
 │   └── Silver_Layer.py               # foreachBatch 8-step cleaning engine
+│   └── .env
 │
-├── docs/
-│   └── images/                       # Architecture & schema diagrams
+├── Source_Data_OLTP/
+│   └── Link__DataSet__(Kaggle).txt 
+│   └── olist_customers_dataset.csv
+│   └── olist_geolocation_dataset.csv
+│   └── olist_order_items_dataset.csv
+│   └── olist_order_payments_dataset.csv
+│   └── olist_order_reviews_dataset.csv
+│   └── olist_orders_dataset.csv
+│   └── olist_products_dataset.csv
+│   └── olist_sellers_dataset.csv
+│   └── product_category_name_translation.csv
 │
 └── README.md                         # You are here
 ```
